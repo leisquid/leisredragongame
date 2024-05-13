@@ -1,0 +1,24 @@
+﻿	    <link href="style.css" rel="stylesheet" type="text/css" />
+    	<h1>PCR 龙族活动词语接龙小工具</h1>
+    	<div align="center">
+    		<table>
+	    		<tr>
+	    			<td>
+	    				<span class="normalBg topLink">
+	    				    <a href="gameStart.jsp" class="normalBg">游戏模式</a>
+	    				</span>
+	    			</td>
+	    			<td>
+	    				<span class="hiddenBg topLink">
+	    				    <a href="searching.jsp" class="hiddenBg">查询模式</a>
+	    				</span>
+	    			</td>
+	    			<td>
+	    				<span class="pcrBg topLink">
+	    				    <a href="editMode.jsp" class="pcrBg">编辑模式</a>
+	    				</span>
+	    			</td>
+	    		</tr>
+    		</table>
+    	</div>
+	<hr />

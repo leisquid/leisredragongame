@@ -1,0 +1,30 @@
+
+                <tr style="text-align: center;">
+                    <td><a href="gameContinue.jsp?symbol=a"><span style="font-size: 24px; font-weight: bold;">a</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ai"><span style="font-size: 24px; font-weight: bold;">ai</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=an"><span style="font-size: 24px; font-weight: bold;">an</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ang"><span style="font-size: 24px; font-weight: bold;">ang</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ao"><span style="font-size: 24px; font-weight: bold;">ao</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=e"><span style="font-size: 24px; font-weight: bold;">e</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ei"><span style="font-size: 24px; font-weight: bold;">ei</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=en"><span style="font-size: 24px; font-weight: bold;">en</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=eng"><span style="font-size: 24px; font-weight: bold;">eng</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=i"><span style="font-size: 24px; font-weight: bold;">i</span></a></td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><a href="gameContinue.jsp?symbol=ie"><span style="font-size: 24px; font-weight: bold;">ie</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=in"><span style="font-size: 24px; font-weight: bold;">in</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ing"><span style="font-size: 24px; font-weight: bold;">ing</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=iu"><span style="font-size: 24px; font-weight: bold;">iu</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=o"><span style="font-size: 24px; font-weight: bold;">o</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ong"><span style="font-size: 24px; font-weight: bold;">ong</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ou"><span style="font-size: 24px; font-weight: bold;">ou</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=u"><span style="font-size: 24px; font-weight: bold;">u</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ui"><span style="font-size: 24px; font-weight: bold;">ui</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=un"><span style="font-size: 24px; font-weight: bold;">un</span></a></td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><a href="gameContinue.jsp?symbol=v"><span style="font-size: 24px; font-weight: bold;">v</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=ve"><span style="font-size: 24px; font-weight: bold;">ve</span></a></td>
+                    <td><a href="gameContinue.jsp?symbol=vn"><span style="font-size: 24px; font-weight: bold;">vn</span></a></td>
+                </tr>

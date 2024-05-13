@@ -1,0 +1,100 @@
+/*
+    style.css: a CSS file of Leisredragongame
+
+    Leisredragongame is free software licensed under the GNU Affero General Public
+    License version 3 published by the Free Software Foundation and without any
+    warranty for liability or particular purpose.
+
+    You can modify and/or redistribute it under the GNU Affero General Public
+    License version 3 or any later version you want.
+
+    License file can be found in this repository; if not, please see
+    <https://www.gnu.org/licenses/agpl-3.0.txt>.
+
+*/
+
+/* 整体样式 */
+* {
+    font-family: sans-serif, sansserif;
+    background-color: #36393F;
+    color: white;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.lookupTable {
+    table-layout: fixed;
+}
+
+
+
+.connectionSuccess {
+    font-weight: bold;
+    color: #0080ff;
+}
+
+.connectionFailed {
+    font-weight: bold;
+    color: #ee0000;
+}
+
+/* 三种背景色 */
+.normalBg {
+    background: #73AE52;
+}
+
+.hiddenBg {
+    background: #31AAFF;
+}
+
+.pcrBg {
+    background: #FF82AD;
+}
+
+/* 三种前景色 */
+.normalColor {
+    color: #73AE52;
+    text-decoration: none;
+}
+
+.hiddenColor {
+    color: #31AAFF;
+    text-decoration: none;
+}
+
+.pcrColor {
+    color: #FF82AD;
+    text-decoration: none;
+}
+
+
+
+
+.indexLink {
+    color: white;
+}
+
+.indexLink:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.topLink {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.topLink:hover {
+    color: white;
+    text-decoration: underline;
+}
+

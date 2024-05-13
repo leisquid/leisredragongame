@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <Resource
+        name="bigWorkConnection"
+        type="javax.sql.Datasource"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/pcr?&amp;serverTimezone=GMT&amp;characterEncoding=utf-8"
+        username="root"
+        password=""
+        maxActive="15"
+        maxIdle="15"
+        minIdle="1"
+        maxWait="1000"
+    />
+</Context>
