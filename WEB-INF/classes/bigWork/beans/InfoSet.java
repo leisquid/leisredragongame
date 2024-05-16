@@ -1,10 +1,24 @@
+/**
+ * ***.java: a Java file of Leisredragongame
+ *
+ * Leisredragongame is free software licensed under the GNU Affero General
+ * Public License version 3 published by the Free Software Foundation and
+ * without any warranty for liability or particular purpose.
+ *
+ * You can modify and/or redistribute it under the GNU Affero General Public
+ * License version 3 or any later version you want.
+ *
+ * License file can be found in this repository; if not, please see
+ * <https://www.gnu.org/licenses/agpl-3.0.txt>.
+ */
+
 package bigWork.beans;
 
 public class InfoSet {
     // 1: num,			2: reading_id,  3: reading,
     // 4: read_type,	5: panel_id,    6: detail_text,
     // 7: head_symbol,  8: tail_symbol, 9: is_character
-    // ²»¶®ÕâĞ©×Ö¶ÎµÄº¬ÒåµÄ»°£¬ÇëÌá issue¡£
+    // ä¸æ‡‚è¿™äº›å­—æ®µçš„å«ä¹‰çš„è¯ï¼Œè¯·æ issueã€‚
     int     num = 0;
     int     readingId = 0;
     String  reading = new String();
@@ -31,7 +45,7 @@ public class InfoSet {
         this.isCharacter = isCharacter;
     }
 
-    // idea Éú³ÉµÄ getter ºÍ setter ·½·¨µÄ´úÂëµÄÆğÊ¼¡£
+    // idea ç”Ÿæˆçš„ getter å’Œ setter æ–¹æ³•çš„ä»£ç çš„èµ·å§‹ã€‚
     public int getNum() {
         return num;
     }
@@ -103,5 +117,5 @@ public class InfoSet {
     public void setIsCharacter(int isCharacter) {
         this.isCharacter = isCharacter;
     }
-    // IdEA Éú³ÉµÄ getter ºÍ setter ·½·¨µÄ´úÂëµÄ½áÊø¡£
+    // IdEA ç”Ÿæˆçš„ getter å’Œ setter æ–¹æ³•çš„ä»£ç çš„ç»“æŸã€‚
 }

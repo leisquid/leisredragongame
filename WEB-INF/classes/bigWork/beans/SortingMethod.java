@@ -1,15 +1,29 @@
+/**
+ * ***.java: a Java file of Leisredragongame
+ *
+ * Leisredragongame is free software licensed under the GNU Affero General
+ * Public License version 3 published by the Free Software Foundation and
+ * without any warranty for liability or particular purpose.
+ *
+ * You can modify and/or redistribute it under the GNU Affero General Public
+ * License version 3 or any later version you want.
+ *
+ * License file can be found in this repository; if not, please see
+ * <https://www.gnu.org/licenses/agpl-3.0.txt>.
+ */
+
 package bigWork.beans;
 
 public class SortingMethod {
-    /* method == 0, °´Ö÷¼ü reading_id ÅÅĞò¡£
-     * method == 1, °´ reading µÄÆ´ÒôÅÅĞò¡£
-     * method == 2, °´Î²×ÖÔÏÄ¸ + reading_id ÅÅĞò¡£
-     * method == 3, °´Î²×ÖÔÏÄ¸ + reading µÄÆ´ÒôÅÅĞò¡£
+    /* method == 0, æŒ‰ä¸»é”® reading_id æ’åºã€‚
+     * method == 1, æŒ‰ reading çš„æ‹¼éŸ³æ’åºã€‚
+     * method == 2, æŒ‰å°¾å­—éŸµæ¯ + reading_id æ’åºã€‚
+     * method == 3, æŒ‰å°¾å­—éŸµæ¯ + reading çš„æ‹¼éŸ³æ’åºã€‚
      */
 
     int method = 0;
 
-    // enableDesc == false, ²»ÆôÓÃµ¹ĞòÅÅĞò£¬·´Ö®ÆôÓÃ¡£
+    // enableDesc == false, ä¸å¯ç”¨å€’åºæ’åºï¼Œåä¹‹å¯ç”¨ã€‚
     boolean enableDesc = false;
 
     public int getMethod() {

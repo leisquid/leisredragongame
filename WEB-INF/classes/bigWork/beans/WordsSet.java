@@ -1,3 +1,17 @@
+/**
+ * ***.java: a Java file of Leisredragongame
+ *
+ * Leisredragongame is free software licensed under the GNU Affero General
+ * Public License version 3 published by the Free Software Foundation and
+ * without any warranty for liability or particular purpose.
+ *
+ * You can modify and/or redistribute it under the GNU Affero General Public
+ * License version 3 or any later version you want.
+ *
+ * License file can be found in this repository; if not, please see
+ * <https://www.gnu.org/licenses/agpl-3.0.txt>.
+ */
+
 package bigWork.beans;
 
 public class WordsSet {
@@ -10,7 +24,7 @@ public class WordsSet {
     String[]    headSymbol;
     String[]    tailSymbol;
 
-    // °´ÕÕ»ñµÃµÄ´ÊÌõ×ÜÊı³õÊ¼»¯´ÊÌõ¼¯¡£
+    // æŒ‰ç…§è·å¾—çš„è¯æ¡æ€»æ•°åˆå§‹åŒ–è¯æ¡é›†ã€‚
     public void init(int total) {
         this.total      = total;
         this.readingId  = new int[this.total + 1];
@@ -22,7 +36,7 @@ public class WordsSet {
     }
 
 
-    // °´Ë÷ÒıºÅÉèÖÃµ¥Ìõ readingId ¼ÇÂ¼¡£
+    // æŒ‰ç´¢å¼•å·è®¾ç½®å•æ¡ readingId è®°å½•ã€‚
     public int getReadingIdByIndex(int index) {
         return this.readingId[index];
     }
@@ -31,7 +45,7 @@ public class WordsSet {
         this.readingId[index] = value;
     }
 
-    // °´Ë÷ÒıºÅÉèÖÃµ¥Ìõ reading ¼ÇÂ¼¡£
+    // æŒ‰ç´¢å¼•å·è®¾ç½®å•æ¡ reading è®°å½•ã€‚
     public String getReadingByIndex(int index) {
         return this.reading[index];
     }
@@ -40,7 +54,7 @@ public class WordsSet {
         this.reading[index] = value;
     }
 
-    // °´Ë÷ÒıºÅÉèÖÃµ¥Ìõ readType ¼ÇÂ¼¡£
+    // æŒ‰ç´¢å¼•å·è®¾ç½®å•æ¡ readType è®°å½•ã€‚
     public int getReadTypeByIndex(int index) {
         return this.readType[index];
     }
@@ -49,7 +63,7 @@ public class WordsSet {
         this.readType[index] = value;
     }
 
-    // °´Ë÷ÒıºÅÉèÖÃµ¥Ìõ panelId ¼ÇÂ¼¡£
+    // æŒ‰ç´¢å¼•å·è®¾ç½®å•æ¡ panelId è®°å½•ã€‚
     public int getPanelIdByIndex(int index) {
         return panelId[index];
     }
@@ -58,7 +72,7 @@ public class WordsSet {
         this.panelId[index] = value;
     }
 
-    // °´Ë÷ÒıºÅÉèÖÃµ¥Ìõ headSymbol ¼ÇÂ¼¡£
+    // æŒ‰ç´¢å¼•å·è®¾ç½®å•æ¡ headSymbol è®°å½•ã€‚
     public String getHeadSymbolByIndex(int index) {
         return this.headSymbol[index];
     }
@@ -67,7 +81,7 @@ public class WordsSet {
         this.headSymbol[index] = value;
     }
 
-    // °´Ë÷ÒıºÅÉèÖÃµ¥Ìõ tailSymbol ¼ÇÂ¼¡£
+    // æŒ‰ç´¢å¼•å·è®¾ç½®å•æ¡ tailSymbol è®°å½•ã€‚
     public String getTailSymbolByIndex(int index) {
         return this.tailSymbol[index];
     }
@@ -78,7 +92,7 @@ public class WordsSet {
 
 
 
-    // IDEA Éú³ÉµÄ getter ºÍ setter ·½·¨µÄ´úÂëµÄÆğÊ¼¡£
+    // IDEA ç”Ÿæˆçš„ getter å’Œ setter æ–¹æ³•çš„ä»£ç çš„èµ·å§‹ã€‚
     public int getTotal() {
         return total;
     }
@@ -134,5 +148,5 @@ public class WordsSet {
     public void setTailSymbol(String[] tailSymbol) {
         this.tailSymbol = tailSymbol;
     }
-    // IDEA Éú³ÉµÄ getter ºÍ setter ·½·¨µÄ´úÂëµÄ½áÊø¡£
+    // IDEA ç”Ÿæˆçš„ getter å’Œ setter æ–¹æ³•çš„ä»£ç çš„ç»“æŸã€‚
 }
