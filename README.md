@@ -30,4 +30,4 @@ For more, please see <https://www.gnu.org/licenses/>.
 
 ### Others
 
-除软件极其源代码外，本仓库中包含的游戏内图片或文案资源，版权归属 Cygames 所有。
+除软件及其源代码外，本仓库中包含的游戏内图片或文案资源，版权归属 Cygames 所有。
