@@ -1,3 +1,7 @@
+# Leisredragongame
+
+PCR 龙族活动词语接龙小工具，大学期间的一次大作业，采用 JSP 的拙劣实现。
+
 ![cover](./cover.png)
 
 ---
@@ -26,4 +30,4 @@ For more, please see <https://www.gnu.org/licenses/>.
 
 ### Others
 
-本仓库中包含的游戏图片或文案资源，版权归属 Cygames 所有。
+除软件极其源代码外，本仓库中包含的游戏内图片或文案资源，版权归属 Cygames 所有。
